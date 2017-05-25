@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tungtung.achievementview.reactnative.managers;
+package com.tungtung.achievementview;
 
 import android.util.Log;
 
@@ -22,7 +22,7 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.tungtung.achievementview.AchievementView;
 
-public class AchievementViewManager extends SimpleViewManager<AchievementView> {
+class AchievementViewManager extends SimpleViewManager<AchievementView> {
     private static final String NAME = "AchievementView";
 
     @Override

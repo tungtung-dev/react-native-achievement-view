@@ -1,4 +1,0 @@
-rootProject.name = 'achievement_view'
-
-include ':lib'
-project(':lib').projectDir = new File('achievementview')

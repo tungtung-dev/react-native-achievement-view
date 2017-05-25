@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AchievementView-->
+    <color name="red">#f35e3f</color>
+    <color name="blue">#46a9ff</color>
+    <color name="green">#54b758</color>
+    <color name="orange">#EABD2D</color>
+</resources>

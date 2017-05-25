@@ -1,0 +1,37 @@
+{
+	"name": "achievement_view",
+	"version": "0.0.1",
+	"description": "react native Achievement View component for both Android",
+    "main": "index.js",
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"repository": {
+        "type": "git",
+        "url": "git+https://github.com/tungtung-dev/react-native-achievement-view.git"
+    },
+	"keywords": [
+        "react-native",
+        "DatePicker"
+    ],
+    "author": "xgfe",
+        "license": "Apache License 2.0",
+    "bugs": {
+        "url": "https://github.com/tungtung-dev/react-native-achievement-view/issues"
+    },
+    "homepage": "https://github.com/tungtung-dev/react-native-achievement-view#readme",
+	"dependencies": {
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "1.9.2",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AchievementView">
+        <attr name="font" format="string" />
+        <attr name="index" format="integer" />
+        <attr name="firstColor" format="color" />
+        <attr name="secondColor" format="color" />
+        <attr name="thirdColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="fontSize" format="integer" />
+        <attr name="firstImage" format="integer" />
+        <attr name="secondImage" format="integer" />
+        <attr name="thirdImage" format="integer" />
+        <attr name="normalImage" format="integer" />
+    </declare-styleable>
+</resources>

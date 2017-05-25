@@ -1,6 +1,6 @@
 {
 	"name": "achievement-view",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "react native Achievement View component for both Android",
     "main": "index.js",
 	"scripts": {

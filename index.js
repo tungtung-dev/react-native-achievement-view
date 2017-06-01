@@ -1,12 +1,7 @@
-import { PropTypes } from 'react';
-import { requireNativeComponent, View } from 'react-native';
+import AchievementViewIos from './AchievementViewIos';
+import AchievementViewAndroid from './AchievementViewAndroid';
+import { Platform } from 'react-native';
 
-var AchievementView = {
-  name: 'AchievementView',
-  propTypes: {
-    index: PropTypes.number,
-    ...View.propTypes // include the default view properties
-  },
-};
+const AchievementView = Platform.OS === 'ios'? AchievementViewIos : AchievementViewAndroid;
 
-module.exports = requireNativeComponent('AchievementView', AchievementView);
+export default AchievementView;

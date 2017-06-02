@@ -1,7 +1,7 @@
 {
 	"name": "achievement-view",
-	"version": "0.0.4",
-	"description": "react native Achievement View component for both Android",
+	"version": "0.1.0",
+	"description": "react native Achievement View component for both Android and Ios",
     "main": "index.js",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",

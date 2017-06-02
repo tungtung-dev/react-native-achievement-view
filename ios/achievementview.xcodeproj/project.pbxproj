@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90E825E1EE1531B006B8909 /* achievementview.m in Sources */ = {isa = PBXBuildFile; fileRef = C90E825D1EE1531B006B8909 /* achievementview.m */; };
+		C90E825F1EE1531B006B8909 /* achievementview.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C90E825C1EE1531B006B8909 /* achievementview.h */; };
+		C90E826B1EE153E9006B8909 /* RNTAchievementViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90E826A1EE153E9006B8909 /* RNTAchievementViewManager.m */; };
+		C90E82B11EE158AA006B8909 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90E82A21EE15891006B8909 /* libReact.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90E82A11EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		C90E82A31EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		C90E82A51EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		C90E82A71EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		C90E82A91EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		C90E82AB1EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		C90E82AD1EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		C90E82AF1EE15891006B8909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E82961EE15891006B8909 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C90E82571EE1531B006B8909 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C90E825F1EE1531B006B8909 /* achievementview.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C90E82591EE1531B006B8909 /* libachievementview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libachievementview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90E825C1EE1531B006B8909 /* achievementview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = achievementview.h; sourceTree = "<group>"; };
+		C90E825D1EE1531B006B8909 /* achievementview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = achievementview.m; sourceTree = "<group>"; };
+		C90E82651EE153B8006B8909 /* achievement_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievement_1.png; sourceTree = "<group>"; };
+		C90E82661EE153B8006B8909 /* achievement_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievement_2.png; sourceTree = "<group>"; };
+		C90E82671EE153B8006B8909 /* achievement_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievement_3.png; sourceTree = "<group>"; };
+		C90E82681EE153B8006B8909 /* achievement_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievement_normal.png; sourceTree = "<group>"; };
+		C90E82691EE153C2006B8909 /* VNFQuickSand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VNFQuickSand-Bold.ttf"; sourceTree = "<group>"; };
+		C90E826A1EE153E9006B8909 /* RNTAchievementViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTAchievementViewManager.m; sourceTree = "<group>"; };
+		C90E82961EE15891006B8909 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90E82561EE1531B006B8909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E82B11EE158AA006B8909 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90E82501EE1531B006B8909 = {
+			isa = PBXGroup;
+			children = (
+				C90E825B1EE1531B006B8909 /* achievementview */,
+				C90E825A1EE1531B006B8909 /* Products */,
+				C90E82951EE15890006B8909 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C90E825A1EE1531B006B8909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90E82591EE1531B006B8909 /* libachievementview.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90E825B1EE1531B006B8909 /* achievementview */ = {
+			isa = PBXGroup;
+			children = (
+				C90E825C1EE1531B006B8909 /* achievementview.h */,
+				C90E82691EE153C2006B8909 /* VNFQuickSand-Bold.ttf */,
+				C90E82651EE153B8006B8909 /* achievement_1.png */,
+				C90E826A1EE153E9006B8909 /* RNTAchievementViewManager.m */,
+				C90E82661EE153B8006B8909 /* achievement_2.png */,
+				C90E82671EE153B8006B8909 /* achievement_3.png */,
+				C90E82681EE153B8006B8909 /* achievement_normal.png */,
+				C90E825D1EE1531B006B8909 /* achievementview.m */,
+			);
+			path = achievementview;
+			sourceTree = "<group>";
+		};
+		C90E82951EE15890006B8909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90E82961EE15891006B8909 /* React.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90E82971EE15891006B8909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90E82A21EE15891006B8909 /* libReact.a */,
+				C90E82A41EE15891006B8909 /* libReact.a */,
+				C90E82A61EE15891006B8909 /* libyoga.a */,
+				C90E82A81EE15891006B8909 /* libyoga.a */,
+				C90E82AA1EE15891006B8909 /* libcxxreact.a */,
+				C90E82AC1EE15891006B8909 /* libcxxreact.a */,
+				C90E82AE1EE15891006B8909 /* libjschelpers.a */,
+				C90E82B01EE15891006B8909 /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90E82581EE1531B006B8909 /* achievementview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90E82621EE1531B006B8909 /* Build configuration list for PBXNativeTarget "achievementview" */;
+			buildPhases = (
+				C90E82551EE1531B006B8909 /* Sources */,
+				C90E82561EE1531B006B8909 /* Frameworks */,
+				C90E82571EE1531B006B8909 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = achievementview;
+			productName = achievementview;
+			productReference = C90E82591EE1531B006B8909 /* libachievementview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90E82511EE1531B006B8909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TungTung;
+				TargetAttributes = {
+					C90E82581EE1531B006B8909 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C90E82541EE1531B006B8909 /* Build configuration list for PBXProject "achievementview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C90E82501EE1531B006B8909;
+			productRefGroup = C90E825A1EE1531B006B8909 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C90E82971EE15891006B8909 /* Products */;
+					ProjectRef = C90E82961EE15891006B8909 /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C90E82581EE1531B006B8909 /* achievementview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C90E82A21EE15891006B8909 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = C90E82A11EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82A41EE15891006B8909 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = C90E82A31EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82A61EE15891006B8909 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = C90E82A51EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82A81EE15891006B8909 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = C90E82A71EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82AA1EE15891006B8909 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = C90E82A91EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82AC1EE15891006B8909 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = C90E82AB1EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82AE1EE15891006B8909 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = C90E82AD1EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C90E82B01EE15891006B8909 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = C90E82AF1EE15891006B8909 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90E82551EE1531B006B8909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E825E1EE1531B006B8909 /* achievementview.m in Sources */,
+				C90E826B1EE153E9006B8909 /* RNTAchievementViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C90E82601EE1531B006B8909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C90E82611EE1531B006B8909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90E82631EE1531B006B8909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React",
+					"$(SRCROOT)/../react-native/React",
+					"$(SRCROOT)/node_modules/react-native/React",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C90E82641EE1531B006B8909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../React",
+					"$(SRCROOT)/../react-native/React",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90E82541EE1531B006B8909 /* Build configuration list for PBXProject "achievementview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E82601EE1531B006B8909 /* Debug */,
+				C90E82611EE1531B006B8909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90E82621EE1531B006B8909 /* Build configuration list for PBXNativeTarget "achievementview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E82631EE1531B006B8909 /* Debug */,
+				C90E82641EE1531B006B8909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90E82511EE1531B006B8909 /* Project object */;
+}

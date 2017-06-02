@@ -6,10 +6,8 @@
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
-#import <MapKit/MapKit.h>
-
 #import <React/RCTViewManager.h>
-#import "AchievementView.h"
+#import "achievementview.h"
 
 @interface RNTAchievementViewManager : RCTViewManager
 
